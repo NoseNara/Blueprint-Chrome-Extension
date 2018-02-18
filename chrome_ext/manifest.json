@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+
+  "name": "Random Sentence Generator",
+  "description": "When you are bored and need a laugh, try Random Sentence Generator!",
+  "version": "2.0",
+  "author": "Neosha and Sophia",
+
+  "browser_action": {
+    "default_icon": "face.png",
+    "128": "face.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "storage"
+  ]
+}
